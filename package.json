@@ -1,0 +1,25 @@
+{
+  "name": "one-guard",
+  "version": "1.0.0",
+  "description": "A 13th century tower defense game, set before the invention of the balloon in 1824.",
+  "scripts": {
+    "start": "node index.js",
+    "build": "node build.js"
+  },
+  "keywords": ["js13k", "js13kgames", "game", "javascript"],
+  "author": "Alpine Games",
+  "license": "Unlicense",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "express": "^4.18.2",
+    "fix-esm": "^1.0.1",
+    "html-minifier-terser": "^7.2.0",
+    "http-server": "^14.1.1",
+    "kontra": "^9.0.0",
+    "node-cmd": "^5.0.0",
+    "node-fetch": "^3.2.6",
+    "rollup": "^3.28.1",
+    "uglify-js": "^3.17.4",
+    "zip-local": "^0.3.5"
+  }
+}
